@@ -1,7 +1,23 @@
 #district-carousel{
 	height: 430px;
-}body {
-	background: #cedbe7;
+	background: #234f6d;
+	background: linear-gradient(0deg, rgba(4, 68, 114, 0.116) 0%, #0444728e 100%);
+}
+
+.carousel-item:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.7707457983193278) 0%, rgba(0,0,0,0.19091386554621848) 49%, rgba(255,255,255,0) 100%);
+  }
+body {
+	background: #bad8ba;
+
 }
 .section-padding {
 	padding: 50px 0;
@@ -32,12 +48,16 @@ width: auto;
     text-align: left;
 	top: 20%;
 	max-width: 500px;
+	
   }
 .overlay h1{
     font-size: 30px;
+	color: rgb(247, 242, 230);
 }
 .overlay p{
-    font-size:15px;
+    font-size:18px;
+	color: rgb(247, 242, 230);
+	
 }
 .navbar .getstarted {
 	background: #ffffff;
@@ -63,10 +83,10 @@ width: auto;
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgb(87, 83, 47);
+	color: rgb(70, 10, 10);
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: rgb(214, 101, 101);
+	color: rgb(255, 255, 255);
 }
 
 .navbar-toggler {
@@ -76,8 +96,8 @@ width: auto;
 	background: #fff;
 }
 .hidden-spacer {
-	background-color:#cedbe7;
-    height: 59px;
+	background-color:#bad8ba;;
+    height: 60px;
 }
 .card {
 	border: none;
@@ -87,7 +107,10 @@ width: auto;
 	min-height: 450px;
 	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
   }
-
+  .card-title a{
+	text-decoration: none;
+	font-size: 35px;
+  }
   @media (max-width: 768px) {
 	.card {
 	  min-height: 270px;
@@ -130,8 +153,10 @@ width: auto;
 	border-top: none;
     position: absolute;
     top: 30%;
-    width: 250px;
+    width: 350px;
+	font-size: 23px;
   }
+  
   
   
  
@@ -175,5 +200,7 @@ width: auto;
 	font-weight: 700;
 	padding: 20px 40px;
   }
+  
+   
   
    
