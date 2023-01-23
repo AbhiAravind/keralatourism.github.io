@@ -3,7 +3,8 @@
 	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background: #cedbe7;
+	background: #bad8ba;
+
 }
 .section-padding {
 	padding: 100px 0;
@@ -98,7 +99,8 @@ width: auto;
 	background: #fff;
 }
 body {
-	background: url(/images/hero-bg.jpg);
+	background: url(hero.png);
+	background-size: cover;
 
 }
 .section-padding {
